@@ -27,11 +27,18 @@ section nav {
   z-index: 1000;
 }
 /*------------- nav logo ------------*/
-section nav .logo img {
-  width: 100px;
-  cursor: pointer;
-  margin: 7px 0 4px 0;
+section nav .logo{
+  
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  background: #333;
+  text-transform: uppercase;
 }
+section nav span{
+  color: #fac031;
+}
+
 /*------------- nav list ------------*/
 section nav ul {
   list-style: none;
